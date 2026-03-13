@@ -48,6 +48,11 @@ module.exports = {
     web: {
       favicon: './assets/favicon.png',
     },
+    extra: {
+      eas: {
+        projectId: '57931249-d38c-4ffe-bbb7-9491a686225b',
+      },
+    },
     plugins: [
       [
         'expo-build-properties',
